@@ -26,9 +26,29 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testExample1
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+	XCTAssertNil(nil);
+}
+
+- (void)testExample2
+{
+	XCTAssertNil(nil);
+}
+
+- (void)testExample3
+{
+ 	XCTAssertNil(nil);
+}
+
+- (void)testExample4
+{
+ 	XCTAssertNil(nil);
+}
+
+- (void)testExample5
+{
+	XCTAssertNil(nil);
 }
 
 @end
